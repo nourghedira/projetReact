@@ -1,0 +1,119 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #334155;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  color: #1e293b;
+}
+
+.header p {
+  color: #64748b;
+}
+
+.counter-card {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+}
+
+.counter-display {
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 18px;
+}
+
+.positive {
+  color: #10b981;
+}
+
+.negative {
+  color: #ef4444;
+}
+
+.zero {
+  color: #64748b;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+
+.btn {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-dec {
+  background-color: #e11d48;
+}
+
+.btn-reset {
+  background-color: #64748b;
+}
+
+.btn-inc {
+  background-color: #0284c7;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.step-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 15px 0;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.step-control select {
+  padding: 5px 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.history-card {
+  margin-top: 15px;
+  padding: 10px 12px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 7px;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.history-card p {
+  margin: 5px 0;
+  line-height: 1.5;
+}
